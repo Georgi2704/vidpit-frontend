@@ -264,7 +264,8 @@ export default new Vuex.Store({
         },
 
         initializeConnection(){
-            this.socket = new SockJS("http://localhost:8080/gs-guide-websocket");
+            this.socket = new SockJS("https://localhost:8080/gs-guide-websocket");
+            //this.socket = new SockJS("http://localhost:8080/gs-guide-websocket");
             this.state.stompClient = Stomp.over(this.socket);
             this.state.stompClient.connect(
                 {},
