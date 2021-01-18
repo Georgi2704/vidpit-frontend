@@ -1,0 +1,116 @@
+.video-form{
+    width: 100%;
+    padding-right: 50px;
+    margin-left: 50px;
+}
+
+.col{
+    flex: 1;
+    padding: 20px;
+}
+
+.newest{
+    display: block;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.video-table{
+    padding-top: 10px;
+}
+
+.image-container{
+    color: black;
+    width: auto;
+    padding-top: 56.25%;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+
+.image-container img{
+
+    position: absolute;
+    left: -1000%;
+    right: -1000%;
+    top: -1000%;
+    bottom: -1000%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.flex-grid {
+    display: flex;
+    margin-top: 20px;
+}
+
+.col {
+    flex: 1;
+    background-color: #e3e3e3;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.col:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33));
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .flex-grid {
+        display: block;
+    }
+}
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-grid-thirds .col {
+    width: 32%;
+}
+
+.flex-grid-thirds .col{
+    width: 32%;
+}
+
+.grid{
+    display: grid;
+
+    /* define the number of grid columns */
+    grid-template-columns: repeat( auto-fill, minmax(300px, 1fr) );
+}
+
+.grid-element:hover{
+    cursor: pointer;
+    background-color: #232b4e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.grid-element{
+    padding: 20px 10px;
+    margin: 7px;
+    background-color: #262626;
+    color: white;
+    border-radius: 10px;
+}
+
+.grid-header{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grid-footer{
+    padding-left: 10px;
+    padding-right: 10px;
+   word-wrap: break-word;
+}
+

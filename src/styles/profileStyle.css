@@ -1,0 +1,229 @@
+.category-dropdown{
+    height: 150px;
+    overflow-y: auto;
+}
+
+#video-category-text{
+    font-weight: bold;
+}
+
+.selected-file{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.vidPit-icon{
+    max-width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+    height: auto;
+}
+
+input[type="file"] {
+    display: none;
+}
+.upload-file{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    background-color: #007eec;
+}
+
+.upload-file:hover{
+    transition: 0.2s;
+    background-color: #0062bc;
+}
+
+.video-form{
+    width: 100%;
+    padding-right: 50px;
+    margin-left: 50px;
+}
+
+.video-category{
+    display: inline-flex;
+}
+
+@media (max-width: 400px) {
+    .video-category {
+        display: block;
+    }
+}
+.welcome{
+    font-weight: lighter;
+    color: #a4a4a4;
+    width: 100%;
+    z-index: 1;
+    background-color: #303030;
+}
+.changeProfilePic{
+    background-color: #257998;
+}
+.flex-container{
+    display: flex;
+    /*background-color: DodgerBlue;*/
+}
+.flex-container > div{
+    /*background-color: #353535;*/
+    margin: 10px;
+    padding: 20px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+.background{
+    background-color: #303030;
+    color: white;
+    padding: 10px;
+}
+.profilepic{
+    max-width: 320px;
+}
+.statspic{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    min-width: 40%;
+}
+.statstext{
+        padding-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.col-pic{
+
+}
+.col-info{
+    min-width: 35%;
+    flex: 0 1 auto;
+    overflow: hidden;
+}
+.col-stats{
+    position: relative;
+    top: 50%;
+    transform: translateY(+20%);
+    border-radius: 20px;
+    min-width: 20%;
+    height: 50%;
+    background-color: #0c4a9b;
+}
+.col-stats:hover{
+    min-width: 20%;
+    background-color: #0e5ebe;
+    cursor: pointer;
+}
+.info-descrption{
+    font-weight: lighter;
+    color: #a4a4a4;
+    padding-right: 30px;
+    text-align: left;
+}
+.info-value{
+    width: auto;
+}
+.spacebetweenrows{
+    padding-top: 5px;
+}
+.mini-flex{
+    display: block;
+    clear: both;
+}
+.mini-flex > div{
+    float: left;
+}
+.followers{
+    padding-right: 42px;
+}
+.user_since{
+    padding-right: 34px;
+}
+
+/*Videos part of the profile page*/
+
+.profile-videos-container{
+    display: flex;
+}
+.profile-videos-container > div{
+    /*background-color: #353535;*/
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+.col-uploaded{
+    background-color: #393939;
+}
+.col-favourite{
+    background-color: #393939;
+}
+.video{
+    margin-bottom: 20px;
+    background-color: #393939;
+    padding-bottom: 20px;
+}
+.video-list{
+    overflow-y: scroll;
+    background-color: #0e5ebe;
+}
+.video_thumbnail{
+    width: 60%;
+}
+.video_title{
+    padding: 2px;
+    font-size: 20px;
+}
+.column-video-info{
+    width: 40%;
+}
+.video_info{
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.Upload{
+    width: 30%;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.uploadButton{
+    padding: 5px 0px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.following{
+    padding-right: 41px;
+}
+
+.followingdiv:hover{
+    cursor: pointer;
+}
+
+.followingdiv:hover .following{
+    color: white;
+}
+
+.list-following-followers{
+    overflow-y: scroll;
+    max-height: 500px;
+}
+.list-following-item{
+    padding: 5px 0px;
+    width: 100%;
+}
+.list-following-item :hover{
+    cursor: pointer;
+    background-color: #a4a4a4;
+    border-radius: 5px;
+}
+
+
+

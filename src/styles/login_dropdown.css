@@ -1,0 +1,120 @@
+.notif{
+    background-color: blueviolet;
+}
+
+.notif-line{
+    background-color: #0e5ebe;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: white;
+}
+
+.adminButton{
+    margin-right: 0px;
+}
+.navbarBackground{
+    background-color: #3d5177;
+}
+.dropbtn {
+    background-color: #0e5ebe;
+    color: #ffffff;
+    padding: 8px 24px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.dropbtn:hover {
+    transition: 0.2s;
+    background-color: #0c4a9b;
+}
+
+.logoutbtn {
+    background-color: #8a8a8a;
+    color: #ffffff;
+    padding: 8px 24px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.logoutbtn:hover {
+    transition: 0.2s;
+    background-color: #707070;
+}
+
+.adminBtn {
+    background-color: #e33636;
+    color: #ffffff;
+    padding: 8px 24px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.adminBtn:hover {
+    transition: 0.2s;
+    background-color: #ac2929;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    right: 50px;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.clicked .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #0f2b51;
+    transition: 0.1s;
+}
+
+#logo{
+    color: white;
+}
+
+#logo:hover{
+    text-decoration: none;
+    color: #4141ff;
+    transition: 0.2s;
+}
